@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"></meta>
+    <title>Hello</title>
+</head>
+<body>
+
+<div th:object="${user}">
+    userid: <span th:text="*{userid}">userid</span>
+    <br/>
+    username: <span th:text="*{username}">username</span>
+    <br/>
+    nickname: <span th:text="*{nickname}">nickname</span>
+    <br/>
+    mobile: <span th:text="*{mobile}">mobile</span>
+    <br/>
+    email: <span th:text="*{email}">email</span>
+    <br/>
+    idcard: <span th:text="${idcard}">idcard</span>
+    <br/>
+    createTime: <span th:text="*{#dates.format(createtime,'yyyy-MM-dd HH:mm:ss')}">createTime</span>
+    <br/>
+    updateTime: <span th:text="*{#dates.format(updatetime,'yyyy-MM-dd HH:mm:ss')}">updateTime</span>
+    <br/>
+</div>
+
+</body>
+</html>
