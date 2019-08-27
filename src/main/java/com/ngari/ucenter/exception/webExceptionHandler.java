@@ -1,4 +1,4 @@
-package com.chuwei.exception;
+package com.ngari.ucenter.exception;
 
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;

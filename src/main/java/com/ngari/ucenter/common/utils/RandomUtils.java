@@ -1,4 +1,4 @@
-package com.chuwei.common.utils;
+package com.ngari.ucenter.common.utils;
 
 import java.io.BufferedReader;
 import java.io.IOException;

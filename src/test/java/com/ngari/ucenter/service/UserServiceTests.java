@@ -1,6 +1,6 @@
-package com.chuwei.service;
+package com.ngari.ucenter.service;
 
-import com.chuwei.model.User;
+import com.ngari.ucenter.model.User;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;

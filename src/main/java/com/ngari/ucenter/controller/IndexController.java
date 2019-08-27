@@ -1,4 +1,4 @@
-package com.chuwei.controller;
+package com.ngari.ucenter.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;

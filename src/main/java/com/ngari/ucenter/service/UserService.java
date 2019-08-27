@@ -1,7 +1,7 @@
-package com.chuwei.service;
+package com.ngari.ucenter.service;
 
-import com.chuwei.common.utils.RandomUtils;
-import com.chuwei.model.User;
+import com.ngari.ucenter.common.utils.RandomUtils;
+import com.ngari.ucenter.model.User;
 import org.springframework.stereotype.Service;
 
 import java.util.Date;

@@ -1,7 +1,5 @@
-package com.chuwei.task;
+package com.ngari.ucenter.task;
 
-import com.chuwei.model.User;
-import com.chuwei.service.UserService;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
 

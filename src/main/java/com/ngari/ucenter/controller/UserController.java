@@ -1,13 +1,12 @@
-package com.chuwei.controller;
+package com.ngari.ucenter.controller;
 
-import com.chuwei.common.utils.RandomUtils;
-import com.chuwei.model.User;
-import com.chuwei.service.UserService;
+import com.ngari.ucenter.common.utils.RandomUtils;
+import com.ngari.ucenter.model.User;
+import com.ngari.ucenter.service.UserService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
-import org.springframework.web.bind.annotation.RestController;
 
 /**
  * Created by win on 2019/8/17.

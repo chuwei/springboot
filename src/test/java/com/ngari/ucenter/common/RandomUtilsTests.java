@@ -1,6 +1,6 @@
-package com.chuwei.common;
+package com.ngari.ucenter.common;
 
-import com.chuwei.common.utils.RandomUtils;
+import com.ngari.ucenter.common.utils.RandomUtils;
 import org.junit.Test;
 
 import java.util.Random;
@@ -8,7 +8,7 @@ import java.util.Random;
 /**
  * Created by win on 2019/8/18.
  */
-public class randomUtilsTests {
+public class RandomUtilsTests {
     @Test
     public void getRandomMobileTest() {
         Random random=new Random();

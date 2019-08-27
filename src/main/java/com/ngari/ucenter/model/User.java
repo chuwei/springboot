@@ -1,9 +1,10 @@
-package com.chuwei.model;
+package com.ngari.ucenter.model;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.ngari.ucenter.common.utils.DateFormatUtils;
 import org.hibernate.annotations.GenericGenerator;
-import com.chuwei.common.utils.DateFormatUtils;
+
 import javax.persistence.*;
 import java.io.Serializable;
 import java.util.Date;
