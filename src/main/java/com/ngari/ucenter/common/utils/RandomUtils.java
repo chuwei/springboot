@@ -88,7 +88,7 @@ public class RandomUtils {
      * @throws IOException
      */
     private static String firstName() throws IOException{
-        List<String> fistNames = loadBaiJiaXing("/asserts/百家姓");
+        List<String> fistNames = loadBaiJiaXing("/asserts/familyName");
         return fistNames.get(randomAB(0,fistNames.size()));
     }
 
@@ -121,10 +121,10 @@ public class RandomUtils {
      */
     private static String secondName(boolean male) throws IOException{
         if(male){
-            List<String> names = loadNames("/asserts/男性");
+            List<String> names = loadNames("/asserts/male");
             return names.get(randomAB(0,names.size()));
         }else{
-            List<String> names = loadNames("/asserts/女性");
+            List<String> names = loadNames("/asserts/female");
             return names.get(randomAB(0,names.size()));
         }
     }
