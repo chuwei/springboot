@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class IndexController {
     @RequestMapping("/")
     public  String index(ModelMap map){
-        map.addAttribute("message","hello");
+        map.addAttribute("message","Service is working fine");
         return "index";
     }
 

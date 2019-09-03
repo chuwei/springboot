@@ -10,7 +10,8 @@ import java.util.UUID;
 /**
  * Created by win on 2019/8/17.
  */
-@Service
+
+@org.apache.dubbo.config.annotation.Service
 public class UserService {
 
     public User createRandomUser(){
